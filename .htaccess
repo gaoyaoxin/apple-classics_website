@@ -1,1 +1,5 @@
+<Files ~ "^.(htaccess|htpasswd)$">
+deny from all
+</Files>
 DirectoryIndex home.html
+order deny,allow
